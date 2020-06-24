@@ -1,0 +1,30 @@
+// Position du text du home.
+.btext{
+    color: #f9f3f4;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    
+}
+.btext > * {
+    line-height: 1.5;
+    font-size: 32pt;
+}
+
+// Background du home
+#particles-js{
+    background-image: url('../../assets/images/home/homeBackground.jpg');
+    height: 100vh;
+}
+// Taille en mobile
+.particles-height{
+    height: 100vh;
+}
+// Hover du bouton home
+.btn-self:hover {
+    background-color: #dc3545 !important;
+    color: #fff !important;
+    border-color: #dc3545 !important;
+}
+

@@ -1,0 +1,25 @@
+// Import fontawesome
+@import'../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
+@import'../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import'../node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
+@import'../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
+
+
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+// Ligne sous les titres
+.underline-title{
+    height: 4px;
+    width: 70px;
+    margin: 0 auto;
+    
+}
+// Centrer les éléments
+.center {
+    margin: 0 auto;
+}
+
+

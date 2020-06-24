@@ -1,0 +1,37 @@
+.about-section{
+    height: 90vh;
+}
+.about-section h2{
+    font-size: 32pt;
+}
+
+// Icones ronds
+.round-icones{
+    width: 125px;
+    border-radius: 10px;
+    height: 125px;
+}
+
+// Icones taille
+.icones {
+    font-size: 75px;
+}
+
+// Navbar Hover 
+.nav-link:hover, .navbar-brand:hover  {
+    color: #dc3545 !important;
+    // background-color: #dc3545 !important;
+}
+
+.nav-link, .navbar-brand  {
+    color: #fff !important;
+}
+.border-img {
+    border: 2px solid !important;
+}
+
+@media screen and (max-width: 600px) {
+    .about-section{
+        height: 100%;
+    }
+}
