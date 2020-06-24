@@ -24,7 +24,7 @@ const App = () => {
         window.addEventListener('scroll', () => {
             let myScroll = window.scrollY
             if (myScroll < 150) {
-                console.log('home');
+                // console.log('home');
                 setNavActive1(true);
                 setNavActive2(false);
                 setNavActive3(false);
@@ -32,21 +32,21 @@ const App = () => {
 
             }
             if (myScroll > 150 && myScroll < 1000) {
-                console.log('about')
+                // console.log('about')
                 setNavActive1(false);
                 setNavActive2(true);
                 setNavActive3(false);
                 setNavActive4(false);
             }
             if (myScroll > 1000 && myScroll < 2200) {
-                console.log('project')
+                // console.log('project')
                 setNavActive1(false);
                 setNavActive2(false);
                 setNavActive3(true);
                 setNavActive4(false);
             }
             if (myScroll > 2200) {
-                console.log('contact')
+                // console.log('contact')
                 setNavActive1(false);
                 setNavActive2(false);
                 setNavActive3(false);
